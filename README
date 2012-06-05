@@ -1,8 +1,8 @@
-The previous view is a navigationcontroller with a list of "ideas". It is a table with just the captions of the ideas.
+The previous view is a navigationcontroller with a list of "ideas". It is a table with just the names of the ideas.
 
 Each Idea has a name, photo, address and id. Each Idea belongs to a List. Each Idea also has many Comments. 
 
-Ideas can be created by a user and then shared with other users of the app. 
+An Idea can be created by a user and then shared with other users of the app. 
 
 When a cell displaying the idea name is selected, the DetailViewController (DVC) is pushed onto the navigationcontroller. 
 
