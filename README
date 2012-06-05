@@ -1,0 +1,16 @@
+The previous view is a navigationcontroller with a list of "ideas". It is a table with just the captions of the ideas.
+
+Each Idea has a name, photo, address and id. Each Idea belongs to a List. Each Idea also has many Comments. 
+
+Ideas can be created by a user and then shared with other users of the app. 
+
+When a cell displaying the idea name is selected, the DetailViewController (DVC) is pushed onto the navigationcontroller. 
+
+If a user has selected an Idea that has been shared by a friend, DVC checks the remote server for the photo the friend has taken, the tagged address and loads it. 
+
+If there is no photo associated with the Idea, a take photo button appears.
+
+When the add photo button is selected, a user can select a photo from her library or take a photo.
+
+The selected photo is saved to file and uploaded to the remote server. A photoID is created to serve as the file path, which is saved to Core Data. 
+
